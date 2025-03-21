@@ -1,8 +1,9 @@
-﻿namespace ITVTestTask.Models
+﻿using ITVTestTask.Interfaces;
+
+namespace ITVTestTask.Models
 {
-    public class Device
+    public class Device : BaseClass
     {
-        public int Id { get; set; }
         public string Type { get; set; }
     }
 }
